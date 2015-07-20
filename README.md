@@ -1,2 +1,4 @@
-# resume
-Carmen Jiménez Cabezas's resume
+Resume
+======
+
+Jose Antonio Olivera Ortega's resume.

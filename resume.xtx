@@ -1,0 +1,139 @@
+\documentclass[]{resume}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\rfoot{Page \thepage \hspace{1pt}}
+\begin{document}
+
+% Last update date
+\lastupdated
+
+% Name
+\namesection{Carmen Jiménez Cabezas}{}{ Software Engineer \\
+\href{mailto:carmen.jimenezcabezas@telefonica.com}{carmen.jimenezcabezas@telefonica.com} | +34 682 681 246}
+
+% Left column
+\begin{minipage}[t]{0.66\textwidth} 
+
+% Experience
+
+\section{Experience}
+\runsubsection{Telefonica R\&D}
+\descript{| Open Web Devices}
+\location{Jun 2013 - Current}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\textbf{Role}: Software Engineer. \textbf{What I did}: Building Firefox OS. Hacking on the Mozilla platform (AKA Gecko), Apps's WebAPI and permissions, Operator Variant, Vertical Homescreen (frontend and backend), Hello client for FirefoxOS and Desktop. \textbf{Keywords}: C++, Javascript, HTML5, CSS, shell script.
+\sectionsep
+
+\runsubsection{Telefonica R\&D}
+\descript{| Open Web Devices}
+\location{Jun 2012 - Jun 2013}
+\textbf{Role}: Security consulter. \textbf{What I did}: In charge of project code's security audits. Some of the discovered vulnerabilites was solved by myself as developer. \textbf{Keywords}: C++, JavaScript, Fortify.
+\sectionsep
+
+\runsubsection{Telefonica R\&D}
+\descript{| Collaborative Security}
+\location{Oct 2011 – May 2012}
+\textbf{Role}: Software Engineer. \textbf{What I did}: Saqqara (Saqqara-SC) Colaborative module development and quality assurance and integration with Saqqara-SA. \textbf{Keywords}: J2EE, ZeroMQ, MySQL, OSSIM.
+\sectionsep
+
+\runsubsection{Telefonica Spain}
+\descript{| Security in Services}
+\location{Oct 2009 – Jan 2011}
+\textbf{Role}: Security consultant. \textbf{What I did}: Consulting in the implementation of security architectures for Telefonica Spain's Services. Defining, develop and validation of Security Operating Procedures. \textbf{Keywords}: Solaris, linux, Windows, Apache, Tomcat, JBoss, SGBR Oracle, MySql, Oracle Weblogic Server,...
+\sectionsep
+
+\runsubsection{Telefonica R\&D}
+\descript{| Network and Services Security} 
+\location{Apr 2007 – Jun 2009}
+\textbf{Role}: Software Engineer. \textbf{What I did}: Training ATOS ORIGIN group, LDAP for Applications training for Security Strategy and Development Network group. ATICO Development, Infradha develpment. \textbf{Keywords}: HTML, JavaScript, SunOne Application Server, SunOne Directory Server, Active Directory, Radius, SGBR Oracle, TACACS+.
+\sectionsep
+
+\runsubsection{Lucent Technologies}
+\descript{|} 
+\location{Ago 2006 – Apr 2007}
+\textbf{Role}: Software Engineer. \textbf{What I did}: Peer review of drivers and self-configuration software for hardware devices and extending the system to allow distributed network configuration for the hardware devices. \textbf{Keywords}: J2EE, C, SBGR Oracle.
+\sectionsep
+
+\runsubsection{Telefonica R\&D}
+\descript{| Security Management and Access Control} 
+\location{Jan 2006 – Ago 2006}
+\textbf{Role}: Software Engineer. \textbf{What I did}: Assess the maturity and viability of different authentication and identity management technologies to achieve a unique identity for Telefonica customers on all our services. \textbf{Keywords}: Liberty Alliance, HTML, JavaScript, J2EE, SunOne Application Server.
+\sectionsep
+
+\runsubsection{Telefonica R\&D}
+\descript{| Cryptography and Digital Identity Services} 
+\location{Apr 2000 – Jun 2006}
+\textbf{Role}: Software Engineer. \textbf{What I did}: Single Sign On based on a certificate stored in a smart card. Digital signature API. \textbf{Keywords}: PKI, J2EE, SunOne WebService, SGBR Oracle, C++, ActiveX, NSPR, NSS.
+\sectionsep
+
+\runsubsection{Airtel}
+\descript{| Dec 1999 – Apr 2000} 
+\sectionsep
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.33\textwidth} 
+
+% Skills
+
+\section{Skills}
+\subsection{Programming}
+\location{Proficiency}
+J2EE \textbullet{} Javascript \\
+\location{Familiarity}
+C \textbullet{} C++ \textbullet{} Python \\ 
+\sectionsep
+\subsection{Worked/played with}
+Firefox OS \\
+PKI \textbullet{} digital signature \\
+cipher algorithms and protocols \\
+Linux \textbullet{} Unix \\
+\sectionsep
+
+% Pesonal skills
+
+\section{Personal skills}
+Easy going \textbullet{} Team player \\
+Proactive personality \textbullet{} Avid learner \\
+If it can be done I can learn it
+
+\sectionsep
+
+% Interests
+\section{Interests}
+Open Source Software Engineering \\
+The Web, Web APIs, Web Services \\
+IoT, M2M,  Cloud Computing, \\
+Distributed Systems, Security and Cryptography 
+\sectionsep
+
+% Education
+\section{Education} 
+\subsection{Polytechnic University}
+\subsection{Of Madrid}
+\descript{Degree on Computer Science}
+\location{1999 | mark 7,64}
+\sectionsep
+
+\section{Awards} 
+Undergraduate Thesis with honors:\\
+'Diseño e implementación de un Sistema de Votación Electrónica Remota'\\
+\sectionsep
+
+% Open Source
+\section{Open Source}
+\begin{tabular}{rll}
+Firefox Browser & Contributor\\
+Firefox OS & Contributor\\
+           & (Apps's WebAPI,\\
+	   & Vertical Homescreen,\\
+	   & Operator Variant,\\
+	   & Firefox OS Hello app,...)\\
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}
