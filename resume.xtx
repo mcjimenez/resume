@@ -12,7 +12,7 @@
 
 % Name
 \namesection{Carmen Jiménez Cabezas}{}{ Software Engineer \\
-\href{mailto:carmen.jimenezcabezas@telefonica.com}{carmen.jimenezcabezas@telefonica.com} | +34 682 681 246}
+\href{mailto:carmen.jimenezcabezas@telefonica.com}{carmen.jimenezcabezas@telefonica.com}}
 
 % Left column
 \begin{minipage}[t]{0.66\textwidth} 
@@ -24,7 +24,7 @@
 \descript{| Open Web Devices}
 \location{Jun 2013 - Current}
 % \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\textbf{Role}: Software Engineer. \textbf{What I did}: Building Firefox OS. Hacking on the Mozilla platform (AKA Gecko), Apps's WebAPI and permissions, Operator Variant, Vertical Homescreen (frontend and backend), Hello client for FirefoxOS and Desktop. \textbf{Keywords}: C++, Javascript, HTML5, CSS, shell script.
+\textbf{Role}: Software Engineer. \textbf{What I did}: Building Firefox OS. Hacking on the Mozilla platform (AKA Gecko), Apps's WebAPI and permissions, Operator Variant, Vertical Homescreen (frontend and backend), Hello client for FirefoxOS and Desktop. \textbf{Keywords}: C++, JavaScript, HTML5, CSS, shell script.
 \sectionsep
 
 \runsubsection{Telefonica R\&D}
@@ -82,7 +82,7 @@
 \section{Skills}
 \subsection{Programming}
 \location{Proficiency}
-J2EE \textbullet{} Javascript \\
+J2EE \textbullet{} JavaScript \\
 \location{Familiarity}
 C \textbullet{} C++ \textbullet{} Python \\ 
 \sectionsep
