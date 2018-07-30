@@ -4,15 +4,20 @@
 \pagestyle{fancy}
 \fancyhf{}
 
-\rfoot{Page \thepage \hspace{1pt}}
+% Footers are not working possibly due to the minipage
+% \rfoot{Page \thepage \hspace{1pt}}
+% \lfoot{Latest version at \href{https://mcjimenez.github.io/resume}{https://mcjimenez.github.io/resume}}
+
 \begin{document}
+
 
 % Last update date
 \lastupdated
 
 % Name
 \namesection{Carmen Jiménez Cabezas}{}{ Senior Software Engineer \\
-\href{mailto:macajc@gmail.com}{macajc@gmail.com}}
+\href{mailto:macajc@gmail.com}{{{\underline {macajc@gmail.com}}}} - TF: +34 682 681 246 \\
+{\small Latest version at \href{https://mcjimenez.github.io/resume}{{{\underline {https://mcjimenez.github.io/resume}}}}}}
 
 % Left column
 \begin{minipage}[t]{0.66\textwidth}
@@ -20,37 +25,40 @@
 % Experience
 
 \section{Experience}
-\runsubsection{TokBox}
+\runsubsection{Telefonica CDO}
+\descript{| Senior Software Engineer }
+\location{April 2018 - Current}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\textbf{Role}: Senior Software Engineer.\\
+\textbf{What I did}: Development of Android modules and libraries both in Java and Kotlin. Developing both the user fronting functionalities (UX) as well as the supporting functionality and some integration tools.\\
+\textbf{Keywords}: Android, Java, Kotlin, ReactX, Dagger...
+\sectionsep
+
+\runsubsection{TokBox - CCDO}
 \descript{| Profesional Services Engineering}
 \location{Jul 2015 - Current}
 % \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \textbf{Role}: Senior Software Engineer.\\
-\textbf{What I did}:
-Development of ad hoc applications for TokBox customers.\\
-\textbullet{} Collect customer requisites, both functional and time restrictions.\\
-\textbullet{} Propose the best fit solution to the customer budget, functional requisites, and time frame.\\
-\textbullet{} Refine the solution with the customer feedback\\
-\textbullet{} Develop the complete solution keeping on the agreed budget and time frame, while ensuring the highest possible quality for the developed code.\\
-\textbullet{} During the development, integrate the customer proposed changes, while keeping the development on track for both budget and time.\\
-\textbullet{} Transfer of the development to the customer at the end of the engagement.\\
-\textbf{Keywords}: C\#, JavaScript, HTML5, CSS, ObjectiveC, Electron, OpenTok...
+\textbf{What I did}: Development of ad hoc solutions for TokBox customers, from requisite capture to pre-production deployment, ensuring the highest possible quality for the developed code. Change management to keep developmet on time and budget.\\
+Development both for backend (NodeJS, PHP) as well as frontend (Web, iOS, Windows .NET with WPF)\\
+\textbf{Keywords}: C\#, JavaScript, HTML5, CSS, ObjectiveC, Electron, OpenTok, Swift...
 \sectionsep
 
 \runsubsection{Telefonica R\&D}
 \descript{| Mozilla - FirefoxOS}
 \location{Jun 2013 - July 2015}
 % \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\textbf{Role}: Senior Software Engineer. \textbf{What I did}: Building Firefox OS.\\
-Hacking on the Mozilla platform (AKA Gecko), Apps's WebAPI and permissions, Operator Variant, Vertical Homescreen (frontend and backend), Hello client for FirefoxOS and Desktop.\\
-\textbf{Keywords}: C++, JavaScript, HTML5, CSS, shell script.
+\textbf{Role}: Senior Security Software Engineer.\\
+\textbf{What I did}: Building Firefox OS. Hacking on the Mozilla platform (AKA Gecko), Apps's WebAPI and permissions, Operator Variant, Vertical Homescreen (frontend and backend), Hello client for FirefoxOS and Desktop.\\
+\textbf{Keywords}: C++, JavaScript, HTML5, CSS, shell script, Security.
 \sectionsep
 
 \runsubsection{Telefonica R\&D}
 \descript{| Mozilla - FirefoxOS}
 \location{Jun 2012 - Jun 2013}
 \textbf{Role}: Security consultant.\\
-\textbf{What I did}: In charge of project code's security audits. Some of the discovered vulnerabilites was solved by myself as developer.\\
-\textbf{Keywords}: C++, JavaScript, Fortify.
+\textbf{What I did}: In charge of project code's security audits. Discovering (and sometimes fixing) vulnerabilites on the Firefox/FirefoxOS code.\\
+\textbf{Keywords}: C++, JavaScript, Fortify, Security.
 \sectionsep
 
 \runsubsection{Telefonica R\&D}
@@ -58,7 +66,7 @@ Hacking on the Mozilla platform (AKA Gecko), Apps's WebAPI and permissions, Oper
 \location{Oct 2011 – May 2012}
 \textbf{Role}: Software Engineer.\\
 \textbf{What I did}: Saqqara (Saqqara-SC) Colaborative module development and quality assurance and integration with Saqqara-SA.\\
-\textbf{Keywords}: J2EE, ZeroMQ, MySQL, OSSIM.
+\textbf{Keywords}: J2EE, ZeroMQ, MySQL, SIEM, OSSIM, Security.
 \sectionsep
 
 \runsubsection{Telefonica Spain}
@@ -66,14 +74,7 @@ Hacking on the Mozilla platform (AKA Gecko), Apps's WebAPI and permissions, Oper
 \location{Oct 2009 – Jan 2011}
 \textbf{Role}: Security consultant.\\
 \textbf{What I did}: Consulting on the implementation of security architectures for Telefonica Spain's Services. Defining, develop and validation of Security Operating Procedures.\\
-\textbf{Keywords}: Solaris, linux, Windows, Apache, Tomcat, JBoss, SGBR Oracle, MySql, Oracle Weblogic Server,...
-\sectionsep
-
-\runsubsection{Telefonica R\&D}
-\descript{| Network and Services Security}
-\location{Apr 2007 – Jun 2009}
-\textbf{Role}: Software Engineer. \textbf{What I did}: Training ATOS ORIGIN group, LDAP for Applications training for Security Strategy and Development Network group. ATICO Development, Infradha develpment.\\
-\textbf{Keywords}: HTML, JavaScript, SunOne Application Server, SunOne Directory Server, Active Directory, Radius, SGBR Oracle, TACACS+.
+\textbf{Keywords}: Solaris, Linux, Windows, Apache, Tomcat, JBoss, DBMS Oracle, MySql, Oracle Weblogic Server,...
 \sectionsep
 
 \end{minipage}
@@ -84,10 +85,10 @@ Hacking on the Mozilla platform (AKA Gecko), Apps's WebAPI and permissions, Oper
 
 \section{Skills}
 \subsection{Programming}
-\location{Proficiency}
+\location{{{\bf Proficiency}}}
 J2EE \textbullet{} Java \textbullet{} JavaScript \textbullet{} ObjectiveC \\
-\location{Familiarity}
-Kotlin \textbullet{} C \textbullet{} C++ \\
+\location{{{\bf Familiarity}}}
+Kotlin \textbullet{} C \textbullet{} C++ \textbullet{} C\# \textbullet{} Swift \\
 \sectionsep
 \subsection{Worked/played with}
 Android \textbullet{} iOS \\
@@ -102,7 +103,7 @@ git \textbullet{} Peer review \textbullet{} Agile
 \subsection{Polytechnic University}
 \subsection{Of Madrid}
 \descript{Degree on Computer Science}
-\location{1999 | mark 7,64}
+\location{1999 | median mark 7,64}
 \sectionsep
 
 \section{Awards}
@@ -113,23 +114,22 @@ Undergraduate Thesis with honors:\\
 
 % Public Software
 \section{Public Software}
-\textbullet{}\href{https://itunes.apple.com/us/app/opentokapp/id1106222570?mt=8}{iOS OpenTokApp}\\
-OpenTok demo application for iOS.
-Developed by myself. It's also my first iOS application.
+\textbullet{} iOS OpenTokApp \href{https://itunes.apple.com/us/app/opentokapp/id1106222570?mt=8}{{\underline{(link)}}}:
+OpenTok demo application for iOS. My first iOS application, developed by myself from UX designs.
+
 
 \sectionsep
-\textbullet{}\href{https://opentokdemo.tokbox.com}{OpenTokDemo Application}\\
-OpenTok Demo Web Application\\
+\textbullet{} OpenTokDemo Application \href{https://opentokdemo.tokbox.com}{{\underline{(link)}}}:
+OpenTok Demo Web Application.\\
 First application I worked on as part of the TokBox PSE team. Developed by a team of 3 developers in 2 months.
-\href{https://github.com/opentok/OpenTokRTC-V2}{OpenTokDemo source code}\\
+\href{https://github.com/opentok/OpenTokRTC-V2}{{\underline{Source code link}}}\\
 
 \sectionsep
-\textbullet{}\href{https://chartgenerator.herokuapp.com}{Chart Server}\\
-Standalone server to generate charts based on data sets.\\
-You can find another deployment that use shared secret:
-\href{https://chartgeneratorprivate.herokuapp.com}{Private chart Server}
+\textbullet{} Chart Server\\
+Standalone server to generate charts based on data sets. Can be customized with (\href{https://chartgeneratorprivate.herokuapp.com}{{\underline{here}}})
+or without (\href{https://chartgenerator.herokuapp.com}{{\underline{here}}}) access restrictions \\
 Developed just for fun\\
-\href{https://github.com/mcjimenez/chartServer}{Source code}\\
+\href{https://github.com/mcjimenez/chartServer}{{\underline{Source code link}}}\\
 \sectionsep
 
 \end{minipage}
@@ -142,17 +142,25 @@ Developed just for fun\\
 
 % Name
 \namesection{Carmen Jiménez Cabezas}{}{ Senior Software Engineer \\
-\href{mailto:macajc@gmail.com}{macajc@gmail.com}}
+\href{mailto:macajc@gmail.com}{macajc@gmail.com} - TF: +34 682 681 246}
 
 % Left column
 \begin{minipage}[t]{0.66\textwidth}
+
+\runsubsection{Telefonica R\&D}
+\descript{| Network and Services Security}
+\location{Apr 2007 – Jun 2009}
+\textbf{Role}: Software Engineer.\\
+\textbf{What I did}: Training ATOS ORIGIN group, LDAP for Applications training for Security Strategy and Development Network group. ATICO Development, Infradha develpment.\\
+\textbf{Keywords}: HTML, JavaScript, SunOne Application Server, SunOne Directory Server, Active Directory, Radius, DBMS Oracle, TACACS+.
+\sectionsep
 
 \runsubsection{Lucent Technologies}
 \descript{|}
 \location{Ago 2006 – Apr 2007}
 \textbf{Role}: Software Engineer.\\
 \textbf{What I did}: Peer review of drivers and self-configuration software for hardware devices and extending the system to allow distributed network configuration for the hardware devices.\\
-\textbf{Keywords}: J2EE, C, SBGR Oracle.
+\textbf{Keywords}: J2EE, C, DBMS Oracle.
 \sectionsep
 
 \runsubsection{Telefonica R\&D}
@@ -160,7 +168,7 @@ Developed just for fun\\
 \location{Jan 2006 – Ago 2006}
 \textbf{Role}: Software Engineer.\\
 \textbf{What I did}: Assess the maturity and viability of different authentication and identity management technologies to achieve a unique identity for Telefonica customers on all our services.\\
-\textbf{Keywords}: Liberty Alliance, HTML, JavaScript, J2EE, SunOne Application Server.
+\textbf{Keywords}: Liberty Alliance, HTML, JavaScript, J2EE, SunOne Application Server, Identity.
 \sectionsep
 
 \runsubsection{Telefonica R\&D}
@@ -168,7 +176,7 @@ Developed just for fun\\
 \location{Apr 2000 – Jun 2006}
 \textbf{Role}: Software Engineer.\\
 \textbf{What I did}: Single Sign On based on a certificate stored in a smart card. Digital signature API.\\
-\textbf{Keywords}: PKI, J2EE, SunOne WebService, SGBR Oracle, C++, ActiveX, NSPR, NSS.
+\textbf{Keywords}: PKI, J2EE, SunOne WebService, DBMS Oracle, C++, ActiveX, NSPR, NSS, Identity.
 \sectionsep
 
 \runsubsection{Airtel (Vodafone)}
@@ -176,7 +184,7 @@ Developed just for fun\\
 \location{Dec 1999 – Apr 2000}
 \textbf{Role}: Junior Software Engineer.\\
 \textbf{What I did}: Business logic in the application.\\
-\textbf{Keywords}: Visual Basic, SGBR Oracle.
+\textbf{Keywords}: Visual Basic, DBMS Oracle.
 \sectionsep
 
 \end{minipage}
@@ -185,7 +193,7 @@ Developed just for fun\\
 
 % Last Presentation
 \section{Last Presentation}
-\textbullet{}\href{http://mcjimenez.github.io/presentations/peerReviewWoW}{Peer Reviews}\\
+\textbullet{} Peer Reviews (\href{http://mcjimenez.github.io/presentations/peerReviewWoW}{{\underline{link}}})\\
 Last public presentation for coworkers from other teams in the company\\
 \textbf{Objective}: Learn how peer review works and why use it, git.
 \sectionsep
@@ -195,11 +203,7 @@ Last public presentation for coworkers from other teams in the company\\
 \begin{tabular}{rll}
 Firefox Browser & Contributor\\
 Firefox OS & Contributor\\
-           & (Apps's WebAPI,\\
-	   & Vertical Homescreen,\\
-	   & Operator Variant,\\
-	   & Firefox OS Hello app,...)\\
-npm & \href{https://www.npmjs.com/package/passport-yahoo-new-oauth2}{Yahoo oauth2 contribution}\\
+PassportJS & \href{https://www.npmjs.com/package/passport-yahoo-new-oauth2}{{\underline{Yahoo OAuth2}}}\\
 \end{tabular}
 \sectionsep
 
@@ -209,8 +213,11 @@ npm & \href{https://www.npmjs.com/package/passport-yahoo-new-oauth2}{Yahoo oauth
 Easy going \textbullet{} Team player \\
 Loves helping people to improve \\
 Proactive personality \textbullet{} Avid learner \\
-If it can be done I can learn it \\
-My motto is that done is better than \\perfect, but perfection is always my goal.
+If it can be done I can learn it
+\sectionsep
+
+\section{Motto}
+Done is better than perfect, but the goal is perfection.
 \sectionsep
 
 % Interests

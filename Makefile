@@ -1,5 +1,5 @@
 all:
-	xelatex resume.xtx
+	xelatex resume.tex
 
 watch:
 	when-changed resume.xtx xelatex resume.xtx
